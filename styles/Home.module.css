@@ -4,7 +4,59 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 97vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 3vh;
+}
+
+.initial_appbar {
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 0 6rem 0 6rem;
+}
+
+.initial_home_button {
+  background-color: rgb(0, 192, 255);
+  color: rgb(255, 255, 255);
+}
+
+.initial_home_button:hover {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+}
+
+.initial_home_button:active {
+  background-color: rgb(0, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.initial_login_button {
+  background-color: rgb(0, 192, 255);
+}
+
+.initial_login_button:hover {
+  background-color: rgb(0, 0, 255);
+}
+
+.initial_login_button:active {
+  background-color: rgb(0, 255, 255);
+}
+
+.initial_screen_button {
+  background-color: rgb(255, 255, 255)
+}
+
+.initial_screen_button:hover {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 .description {

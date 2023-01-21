@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import { InitialScreen } from './components/InitialScreen'
-import { InitialHeader } from './components/InitialHeader'
+import { InitialScreen } from './components/initial/InitialScreen'
+import { InitialHeader } from './components/initial/InitialHeader'
 
 const inter = Inter({ subsets: ['latin'] })
 
