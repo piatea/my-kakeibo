@@ -1,7 +1,7 @@
 import { Typography, Stack } from "@mui/material"
 import { motion } from "framer-motion"
 
-export const InitialScreenMain = () => {
+const InitialScreenMain = () => {
   return (
     <Stack spacing={8}>
       <motion.div
@@ -46,3 +46,5 @@ export const InitialScreenMain = () => {
     </Stack>
   )
 }
+
+export default InitialScreenMain;

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const loginScreen = () => {
+const LoginScreen = () => {
   return (
-    <div>loginScreen</div>
+    <div>LoginScreen</div>
   )
 }
 
- export default loginScreen;
+export default LoginScreen;

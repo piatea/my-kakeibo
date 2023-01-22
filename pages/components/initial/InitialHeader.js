@@ -1,9 +1,11 @@
 import { InitialAppBar } from "./InitialAppBar"
 
-export const InitialHeader = () => {
+const InitialHeader = () => {
   return (
     <>
       <InitialAppBar />
     </>
   )
 }
+
+export default InitialHeader;

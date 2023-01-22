@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 import { AiOutlineHome } from 'react-icons/ai';
 
 
-export const InitialAppBar = () => {
+const InitialAppBar = () => {
   return (
     <>
       <AppBar>
@@ -29,3 +29,5 @@ export const InitialAppBar = () => {
     </>
   );
 }
+
+export default InitialAppBar;

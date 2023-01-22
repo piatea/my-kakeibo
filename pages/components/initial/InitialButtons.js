@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import { Stack, Button } from '@mui/material'
 
-export const InitialButtons = () => {
+const InitialButtons = () => {
   return (
     <Stack 
       spacing={2}
@@ -22,3 +22,5 @@ export const InitialButtons = () => {
     </Stack>
   )
 }
+
+export default InitialButtons;

@@ -1,7 +1,7 @@
 import { InitialButtons } from "./InitialButtons"
 import { InitialScreenMain } from "./InitialScreenMain"
 
-export const InitialScreen = () => {
+const InitialScreen = () => {
   return (
     <>
       <InitialScreenMain />
@@ -9,3 +9,5 @@ export const InitialScreen = () => {
     </>
   )
 }
+
+export default InitialScreen;
