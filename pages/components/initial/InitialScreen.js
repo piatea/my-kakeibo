@@ -1,5 +1,5 @@
-import { InitialButtons } from "./InitialButtons"
-import { InitialScreenMain } from "./InitialScreenMain"
+import InitialButtons from "pages/components/initial/InitialButtons"
+import InitialScreenMain from "pages/components/initial/InitialScreenMain"
 
 const InitialScreen = () => {
   return (

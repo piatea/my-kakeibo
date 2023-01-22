@@ -1,4 +1,4 @@
-import { InitialAppBar } from "./InitialAppBar"
+import InitialAppBar from "pages/components/initial/InitialAppBar"
 
 const InitialHeader = () => {
   return (

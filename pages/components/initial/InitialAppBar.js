@@ -16,7 +16,7 @@ const InitialAppBar = () => {
           >
             <AiOutlineHome size={24} />
           </Button>
-          <Link href="/components/login/loginScreen">
+          <Link href="/components/login/LoginScreen">
             <Button
               className={styles.initial_login_button}
               variant='contained'
