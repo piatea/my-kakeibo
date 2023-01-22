@@ -1,20 +1,32 @@
-.main {
+.initial_main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 97vh;
+  min-height: 100vh;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 
-.header {
+.initial_header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   min-height: 3vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.initial_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 3vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .initial_appbar {

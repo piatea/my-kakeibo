@@ -1,9 +1,11 @@
+import styles from 'src/styles/Home.module.css'
+import InitialButtons from "@/src/components/initial/InitialButtons";
 import { Typography, Stack } from "@mui/material"
 import { motion } from "framer-motion"
 
 const InitialScreenMain = () => {
   return (
-    <Stack spacing={8}>
+    <Stack className={styles.initial_main} spacing={8}>
       <motion.div
         initial={{opacity: 0, scale: 0.5}}
         animate={{opacity: 1, scale: 1}}
@@ -43,6 +45,7 @@ const InitialScreenMain = () => {
           簿 
         </Typography>
       </motion.div>
+      <InitialButtons />
     </Stack>
   )
 }
