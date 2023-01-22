@@ -1,5 +1,5 @@
-import InitialButtons from "pages/components/initial/InitialButtons"
-import InitialScreenMain from "pages/components/initial/InitialScreenMain"
+import InitialButtons from "@/src/components/initial/InitialButtons"
+import InitialScreenMain from "@/src/components/initial/InitialScreenMain"
 
 const InitialScreen = () => {
   return (
