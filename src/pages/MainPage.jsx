@@ -1,10 +1,10 @@
-import MainMain from '@/src/components/main/MainMain';
+import { Calendar } from '@/src/components/main/Calendar';
 import React from 'react'
 
 const MainPage = () => {
   return (
     <>
-      <MainMain />
+      <Calendar />
     </>
   )
 }
