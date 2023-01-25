@@ -8,7 +8,7 @@ import { AiOutlineHome } from 'react-icons/ai';
 
 const InitialAppBar = () => {
   const router = useRouter()
-  const handleLogIn = () => {
+  const handleLogin = () => {
     router.push('/LoginPage')
   }
   
@@ -24,7 +24,7 @@ const InitialAppBar = () => {
           <Button
             className={styles.initial_login_button}
             variant='contained'
-            onClick={handleLogIn}
+            onClick={handleLogin}
           >
             Log in
           </Button>
